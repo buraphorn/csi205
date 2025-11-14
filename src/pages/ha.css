@@ -1,0 +1,70 @@
+.anim-container{
+    margin: auto;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.anim-field{
+    border-radius: 1rem;
+    border: 1px solid black;
+    width: 600px;
+    height: 300px;
+    /* Background image must be available locally */
+    background-image: url(depositphotos_253965642-stock-photo-football-field-or-soccer-field.jpg); 
+    background-position: center;
+    background-size: cover ;
+}
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.anim-ball{
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    /* background-color: black; */
+    /* background-image: url(Basketball.png); */
+    background-position: center;
+    background-size: cover ;
+    width: 100px;
+    height: 100px;
+    position: relative;   
+    
+    /* fwidth - bDiameter - 2 * fBorder */
+    /* left: calc(600px - 100px - 2px); */
+    left: 0px;
+    top: 0px;
+}
+/* หมุน */
+.spin{
+    animation: spin 2s linear infinite;
+}
+.basketball{
+    background-image: url(Basketball.png);
+    background-position: center;
+    background-size: cover ;
+}
+.football{
+    background-image: url(football.jpg);
+    background-position: center;
+    background-size: cover ;
+}
+.volleyball{
+    background-image:url(volleyball.jpg) ;
+    background-position: center;
+    background-size: cover ;
+}
+.humen{
+    background-image: url(IMG_0345.JPG);
+    background-position: center;
+    background-size: cover ;
+}
+.cartoon{
+    background-image: url(cartoon.jpg);
+    background-position: center;
+    background-size: cover ;
+}
+.anim-control{
+    margin-top: 1rem;
+}
