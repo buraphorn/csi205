@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef, useCallback } from 'react';
 
 import './ha.css';
 
+
 // Constants from ha.JS
 const fieldWidth = 600;
 const fieldHeight = 300;
